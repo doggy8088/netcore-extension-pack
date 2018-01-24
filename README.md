@@ -7,31 +7,31 @@ This extension pack packages some of the most popular (and some of my favorite) 
 ### C# Productivity
 
 - [C#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
-    - The C# extension for Visual Studio Code is a MUST.
+    - The main C# extension for Visual Studio Code powered by [OmniSharp](http://www.omnisharp.net).
 - [C# Snippets](https://marketplace.visualstudio.com/items?itemName=jorgeserrano.vscode-csharp-snippets)
     - In addition to C# [built-in snippets](https://msdn.microsoft.com/en-us/library/z41h7fat.aspx), there are some code snippets still very useful.
     - C# Built-in Snippets
-        - #if, #region
-        - class, enum, interface, namespace, exception, 
-        - ctor, indexer, iterator, prop, propfull, propg
-        - if, else, for, forrr, do, while, lock, using, switch
-        - try, tryf
-        - cw
+        - `#if`, `#region`
+        - `class`, `enum`, `interface`, `namespace`, `exception`
+        - `ctor`, `indexer`, `iterator`, `prop`, `propfull, propg`
+        - `if`, `else`, `for`, `forrr`, `do`, `while`, `lock`, `using`, `switch`
+        - `try`, `tryf`
+        - `cw`
     - Class Snippets
-        - classd, classa
+        - `classd`, `classa`
     - Method Snippets
-        - pum, pvm
+        - `pum`, `pvm`
     - Property Snippets
-        - propi
+        - `propi`
     - Guid Snippets
-        - guid, guidn
+        - `guid`, `guidn`
     - Console Snippets
-        - cr, cgo
+        - `cr`, `cgo`
     - LINQ Snippets
-        - linq_distinct, linq_where
+        - `linq_distinct`, `linq_where`
     - Design Pattern Snippets
-        - singleton, singletonl, singletonts
-        - immutable
+        - `singleton`, `singletonl`, `singletonts`
+        - `immutable`
 - [C# Extensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions)
     - The Quick Actions is really a productivity saver.
     - Explorer
@@ -53,7 +53,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
     - It provides some missing refactoring features for C#.
     - Some of the highlights:
         - Add DI in the constructor automatically!
-        - Move class | enum | interface | struct to new file!!
+        - Move class | enum | interface | struct to new file.
 - [C# XML Documentation Comments](https://marketplace.visualstudio.com/items?itemName=k--kato.docomment)
     - Type "///", it auto-generates an XML doucumentation comment.
 - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
@@ -75,7 +75,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 - [.NET Core Tools](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet)
     - Right click on a .csproj, .fsproj or .sln file in the explorer, then you can run .NET Core commands (Build/Run/Test) from context menu.
 
-### ASP.NET Core
+### ASP.NET Core Productivity
 
 - [ASP.NET Core Snippets](https://marketplace.visualstudio.com/items?itemName=rahulsahay.csharp-aspnetcore)
     - A collection of ASP.NET Core snippets for Visual Studio Code.
@@ -90,7 +90,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
     - Known issues:
         - `@model` must appear in the first line of the Razor page when you want IntelliSense for @Model object.
 
-### Some other extensions you may need (Optional) (You need to install the following extensions manually.)
+### Some other extensions you may need (Optional)
 
 - [mssql](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
     - If you are using Microsoft SQL Server, you might need this awesome extension.
