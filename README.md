@@ -71,7 +71,13 @@ This extension pack packages some of the most popular (and some of my favorite) 
 - [NuGet Package Manager](https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager)
   - It lets you easily add or remove NuGet package references to/from your project's .csproj or .fsproj files using Code's Command Palette.
 - [MSBuild project tools](https://marketplace.visualstudio.com/items?itemName=tintoy.msbuild-project-tools)
-  - It provides [MSBuild language service](https://github.com/tintoy/msbuild-project-tools-server/) which contains intellisense for MSBuild project files, including auto-complete for <PackageReference> elements.
+  - It provides [MSBuild language service](https://github.com/tintoy/msbuild-project-tools-server/) which contains intellisense for MSBuild project files, including auto-complete for `<PackageReference>` elements.
+  - If you'd like to configure all the `*.csproj` file that associate with `MSBuild` language mode.  You can use the following user settings in your VSCode.
+    ```json
+    "files.associations": {
+        "*.csproj": "msbuild"
+    }
+    ```
 - [.NET Core Tools](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet)
   - Right click on a .csproj, .fsproj or .sln file in the explorer, then you can run .NET Core commands (Build/Run/Test) from context menu.
 
