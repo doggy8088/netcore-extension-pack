@@ -65,6 +65,22 @@ This extension pack packages some of the most popular (and some of my favorite) 
   - `// @param PARAM` highlight parameter info
 - [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
   - It let you copy JSON and paste as Go, TypeScript, C#, C++ and more using [quicktype](https://app.quicktype.io/#l=cs).
+- [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+  - This can let you list all the `// TODO: ` comments in the project. Neats!
+  - Remember add `**/*.cs` into `todohighlight.include` setting.  Here is the recommended setting below:
+    ```json
+    "todohighlight.include": [
+            "**/*.js",
+            "**/*.jsx",
+            "**/*.ts",
+            "**/*.tsx",
+            "**/*.html",
+            "**/*.php",
+            "**/*.css",
+            "**/*.scss",
+            "**/*.cs"
+        ]
+    ```
 
 ### NuGet & Build Tools
 
