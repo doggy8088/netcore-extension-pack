@@ -2,7 +2,7 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
-## 0.2.1 - 2018-02-06
+## 0.2.2 - 2018-02-06
 
 * Change a new Icon for better recognizing!
 
