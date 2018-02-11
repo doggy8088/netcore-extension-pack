@@ -2,6 +2,10 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 0.3.0 - 2018-02-11
+
+* Add [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) extension.
+
 ## 0.2.2 - 2018-02-06
 
 * Change a new Icon for better recognizing!

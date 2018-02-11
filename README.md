@@ -67,7 +67,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * It let you copy JSON and paste as Go, TypeScript, C#, C++ and more using [quicktype](https://app.quicktype.io/#l=cs).
 * [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
   * This can let you list all the `// TODO:` comments in the project. Neats!
-  * Remember add `**/*.cs` into `todohighlight.include` setting.  Recommended setting below:
+  * Remember add `**/*.cs` into `todohighlight.include` setting. Recommended setting below:
     ```json
     "todohighlight.include": [
             "**/*.js",
@@ -123,6 +123,12 @@ This extension pack packages some of the most popular (and some of my favorite) 
       * This will be triggered after `asp-action` been entered.
   * Known issue:
     * `@model` must appear in the first line of the Razor page when you want IntelliSense for `@Model` object.
+
+### Misc
+
+* [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
+  * It providing Language support for .gitignore files.
+  * It can also add local `.gitignore` by pulling file from the the [github/gitignore](https://github.com/github/gitignore) repository.
 
 ### Some other extensions you may need (Optional)
 
