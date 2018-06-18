@@ -108,14 +108,15 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### ASP.NET Core Productivity
 
-* [ASP.NET Core Snippets](https://marketplace.visualstudio.com/items?itemName=rahulsahay.csharp-aspnetcore)
-  * A collection of ASP.NET Core snippets for Visual Studio Code.
+* [Essential ASP.NET Core Snippets](https://marketplace.visualstudio.com/items?itemName=doggy8088.netcore-snippets)
+  * High quality ASP.NET Core snippets for Visual Studio Code.
   * Here are my most frequently used snippets:
-    * `mvc-core-action`, `mvc-core-async-action`
-    * `mvc-core-get`, `mvc-core-get-async`
-    * `mvc-core-post`, `mvc-core-post-async`
-    * `mvc-core-put`, `mvc-core-put-async`
-    * `mvc-core-delete`, `mvc-core-delete-async`
+    * `ac-api-controller`: Create an API Controller class
+    * `ac-mvc-action`: Create a MVC Action
+    * `ac-api-action`: Create an API Action
+    * `ef-dbcontext`: Create an API Controller class
+    * `ac-connstr`: Create `ConnectionStrings` section in `appsettings.json`
+    * `ac-svc-adddbcontext`: Add a `AddDbContext()` in `Startup.ConfigureService()`
 * [ASP.NET Helper](https://marketplace.visualstudio.com/items?itemName=schneiderpat.aspnet-helper)
   * It parses your project to enable IntelliSense for Razor pages within an ASP.NET MVC project.
   * There are Tag helper IntelliSense which are very useful

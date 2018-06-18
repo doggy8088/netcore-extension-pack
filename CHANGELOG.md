@@ -2,6 +2,10 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 0.5.0 - 2018-06-18
+
+* Add [Essential ASP.NET Core Snippets](https://marketplace.visualstudio.com/items?itemName=doggy8088.netcore-snippets) extension.
+
 ## 0.4.0 - 2018-06-16
 
 * Add [C# FixFormat](https://marketplace.visualstudio.com/items?itemName=Leopotam.csharpfixformat) recommended settings.
