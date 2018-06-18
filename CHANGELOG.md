@@ -2,6 +2,10 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 0.4.0 - 2018-06-16
+
+* Add [C# FixFormat](https://marketplace.visualstudio.com/items?itemName=Leopotam.csharpfixformat) recommended settings.
+
 ## 0.3.0 - 2018-02-11
 
 * Add [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) extension.

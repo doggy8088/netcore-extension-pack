@@ -49,6 +49,11 @@ This extension pack packages some of the most popular (and some of my favorite) 
     * Fix indent size for all lines (omnisharp still cant do it for wrapped lines).
     * Cleanup empty lines with allowed limit in row.
     * It provides **batch mode** that you can batch formatting all your C# files in a folder. You can launch this feature when right-click on a folder in EXPLORER pane.
+  * Recommended settings below:
+    * `"csharp.format.enable": false`
+    * `"csharpfixformat.style.spaces.beforeParenthesis": false`
+    * `"csharpfixformat.style.braces.onSameLine": false`
+    * `"csharpfixformat.style.newline.elseCatch": true`
 * [Super Sharp (C# extensions)](https://marketplace.visualstudio.com/items?itemName=craigthomas.supersharp)
   * It provides some missing refactoring features for C#.
   * Some of the highlights:
