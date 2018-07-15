@@ -87,6 +87,15 @@ This extension pack packages some of the most popular (and some of my favorite) 
         ]
     ```
 
+### Testing Tools
+
+* [.NET Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer)
+  * It supports [MSTest](https://en.wikipedia.org/wiki/Visual_Studio_Unit_Testing_Framework), [NUnit](http://nunit.org/), and [xUnit](https://xunit.github.io).
+  * Useful keyboard shortcuts:
+    * `Alt+R Alt+A` - Run all tests
+    * `Alt+R Alt+R` - Re-run last command
+    * `Alt+R Alt+C` - Run test(s) in context
+
 ### NuGet & Build Tools
 
 * [NuGet Package Manager](https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager)
@@ -138,9 +147,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### Some other extensions you may need (Optional)
 
-* [.NET Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer)
-  * Install this if you are writing Unit Testing for .NET Core.
-  * It supports [MSTest](https://en.wikipedia.org/wiki/Visual_Studio_Unit_Testing_Framework), [NUnit](http://nunit.org/), and [xUnit](https://xunit.github.io).
 * [NuGet Reverse Package Search ("Add Package" support)](https://marketplace.visualstudio.com/items?itemName=jesschadwick.nuget-reverse-package-search)
   * Adds reverse .NET package lookup support like the "Add Package" context menu item in full Visual Studio.
 * [mssql](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
