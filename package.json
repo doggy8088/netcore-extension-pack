@@ -29,6 +29,7 @@
         "wayou.vscode-todo-highlight",
         "christian-kohler.path-intellisense",
         "pflannery.vscode-versionlens",
-        "formulahendry.dotnet-test-explorer"
+        "formulahendry.dotnet-test-explorer",
+        "MS-vsliveshare.vsliveshare"
     ]
 }

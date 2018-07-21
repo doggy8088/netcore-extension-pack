@@ -139,6 +139,11 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * Known issue:
     * `@model` must appear in the first line of the Razor page when you want IntelliSense for `@Model` object.
 
+### Collaboration
+
+* [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+  * Adds real-time collaborative editing and debugging into VS Code.
+
 ### Misc
 
 * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
