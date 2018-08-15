@@ -12,7 +12,7 @@
     "categories": [
         "Extension Packs"
     ],
-    "extensionDependencies": [
+    "extensionPack": [
         "doggy8088.netcore-snippets",
         "codezombiech.gitignore",
         "jorgeserrano.vscode-csharp-snippets",
