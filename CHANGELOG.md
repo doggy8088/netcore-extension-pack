@@ -2,6 +2,11 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 0.7.0 - 2018-08-17
+
+* Use `extensionPack` instead of `extensionDependencies` ( VSCode 1.26.0+ )
+  * `extensionDependencies` is mainly used to define functional dependencies among extensions that prevents uninstalling or disabling an extension dependency without uninstalling or disabling the dependent extension.
+
 ## 0.6.1 - 2018-07-16
 
 * Add [.NET Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer) extension.
