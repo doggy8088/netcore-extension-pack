@@ -119,13 +119,16 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 * [Essential ASP.NET Core Snippets](https://marketplace.visualstudio.com/items?itemName=doggy8088.netcore-snippets)
   * High quality ASP.NET Core snippets for Visual Studio Code.
-  * Here are my most frequently used snippets:
-    * `ac-api-controller`: Create an API Controller class
-    * `ac-mvc-action`: Create a MVC Action
-    * `ac-api-action`: Create an API Action
-    * `ef-dbcontext`: Create an API Controller class
-    * `ac-connstr`: Create `ConnectionStrings` section in `appsettings.json`
-    * `ac-svc-adddbcontext`: Add a `AddDbContext()` in `Startup.ConfigureService()`
+  * It contains C#, ASP.NET Core, Razor, JSON (`appsettings.json`), EF Core snippets.
+  * Here are some of the most used snippets:
+    * `services-add-dbcontext`: Generates `AddDbContext()` in `Startup.ConfigureService()`
+    * `ac-api-controller`: Generates API Controller class
+    * `ac-mvc-action`: Generates MVC Action
+    * `ac-api-action`: Generates API Action
+    * `ef-dbcontext`: Generates API Controller class
+    * `connstr`: Generates `ConnectionStrings` section in `appsettings.json`
+    * `connstr-ip`: Generates `ConnectionStrings` item in `appsettings.json`
+    * `connstr-trusted`: Generates `ConnectionStrings` item in `appsettings.json`
 * [ASP.NET Helper](https://marketplace.visualstudio.com/items?itemName=schneiderpat.aspnet-helper)
   * It parses your project to enable IntelliSense for Razor pages within an ASP.NET MVC project.
   * There are Tag helper IntelliSense which are very useful
