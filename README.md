@@ -156,6 +156,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * If you are using Microsoft SQL Server, you might need this awesome extension.
 * [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
   * It's too informative for me. I turn it off all the time.
+* [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+  * Adds real-time collaborative editing and debugging into VS Code.
 
 ### Other manual setup (Optional)
 
