@@ -2,6 +2,10 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 0.8.0 - 2019-02-22
+
+* Add missing [C#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) extension.
+
 ## 0.7.2 - 2018-08-17
 
 * Use `extensionPack` instead of `extensionDependencies` ( VSCode 1.26.0+ )
