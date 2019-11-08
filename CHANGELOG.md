@@ -2,6 +2,10 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 0.9.0 - 2019-11-09
+
+* Remove [C# Snippets](https://marketplace.visualstudio.com/items?itemName=jorgeserrano.vscode-csharp-snippets) extension. It's been lack of maintenance for a while. Some of the snippets are just wrong.
+
 ## 0.8.0 - 2019-02-22
 
 * Add missing [C#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) extension.

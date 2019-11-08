@@ -8,30 +8,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 * [C#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
   * The main C# extension for Visual Studio Code powered by [OmniSharp](http://www.omnisharp.net).
-* [C# Snippets](https://marketplace.visualstudio.com/items?itemName=jorgeserrano.vscode-csharp-snippets)
-  * In addition to C# [built-in snippets](https://msdn.microsoft.com/en-us/library/z41h7fat.aspx), there are some code snippets still very useful.
-  * C# Built-in Snippets
-    * `#if`, `#region`
-    * `class`, `enum`, `interface`, `namespace`, `exception`
-    * `ctor`, `indexer`, `iterator`, `prop`, `propfull, propg`
-    * `if`, `else`, `for`, `forrr`, `do`, `while`, `lock`, `using`, `switch`
-    * `try`, `tryf`
-    * `cw`
-  * Class Snippets
-    * `classd`, `classa`
-  * Method Snippets
-    * `pum`, `pvm`
-  * Property Snippets
-    * `propi`
-  * Guid Snippets
-    * `guid`, `guidn`
-  * Console Snippets
-    * `cr`, `cgo`
-  * LINQ Snippets
-    * `linq_distinct`, `linq_where`
-  * Design Pattern Snippets
-    * `singleton`, `singletonl`, `singletonts`
-    * `immutable`
 * [C# Extensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions)
   * The Quick Actions is really a productivity saver.
   * Explorer
