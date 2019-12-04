@@ -93,6 +93,10 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### ASP.NET Core Productivity
 
+* [ASP.NET Core Switcher](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.asp-net-core-switcher)
+  * Switch between Page and it's PageModel (`alt + o`)
+  * Switch between View and Controller (`alt + i`)
+  * Create View for Action (`alt + p`)
 * [Essential ASP.NET Core Snippets](https://marketplace.visualstudio.com/items?itemName=doggy8088.netcore-snippets)
   * High quality ASP.NET Core snippets for Visual Studio Code.
   * It contains C#, ASP.NET Core, Razor, JSON (`appsettings.json`), EF Core snippets.

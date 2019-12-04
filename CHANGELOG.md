@@ -2,6 +2,10 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 0.10.0 - 2019-12-04
+
+* Add [ASP.NET Core Switcher](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.asp-net-core-switcher) extension.
+
 ## 0.9.0 - 2019-11-09
 
 * Remove [C# Snippets](https://marketplace.visualstudio.com/items?itemName=jorgeserrano.vscode-csharp-snippets) extension. It's been lack of maintenance for a while. Some of the snippets are just wrong.
