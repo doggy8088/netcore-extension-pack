@@ -6,7 +6,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### C# Productivity
 
-* [C#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
+* [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
   * The main C# extension for Visual Studio Code powered by [OmniSharp](http://www.omnisharp.net).
 * [C# Extensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions)
   * The Quick Actions is really a productivity saver.
@@ -19,7 +19,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
     * Initialize readonly property from parameter (In Constructor Parameter)
     * Initialize ctor from properties (In Class Body)
 * [C# FixFormat](https://marketplace.visualstudio.com/items?itemName=Leopotam.csharpfixformat)
-  * This replace [C#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) built-in C# formatter.
+  * This replace [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) built-in C# formatter.
   * Some of the highlights:
     * Sort usings in alphabetical order. Doubles will be removed automatically.
     * Fix indent size for all lines (omnisharp still cant do it for wrapped lines).

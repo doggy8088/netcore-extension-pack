@@ -2,6 +2,11 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 1.0.0 - 2020-07-29
+
+* The [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) extension has been changed it's publisher id. So I have to update this extension pack to align with it.
+* The minimal version of vscode must larger than `1.44.0`.
+
 ## 0.10.0 - 2019-12-04
 
 * Add [ASP.NET Core Switcher](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.asp-net-core-switcher) extension.
