@@ -2,6 +2,11 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 1.1.1 - 2020-08-03
+
+* Update README
+  * Update [Essential ASP.NET Core Snippets](https://marketplace.visualstudio.com/items?itemName=doggy8088.netcore-snippets) descriptions
+
 ## 1.1.0 - 2020-08-02
 
 * Remove [C# FixFormat](https://marketplace.visualstudio.com/items?itemName=Leopotam.csharpfixformat) extension. The [GitHub repo](https://github.com/Leopotam/vscode-csharpfixformat) has been removed from the author and most of the features can be replaced by [C#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) extension nowadays.

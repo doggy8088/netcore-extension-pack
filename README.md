@@ -61,22 +61,27 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### ASP.NET Core Productivity
 
+* [Essential ASP.NET Core Snippets](https://marketplace.visualstudio.com/items?itemName=doggy8088.netcore-snippets)
+  * High quality ASP.NET Core snippets for Visual Studio Code.
+  * It contains C#, ASP.NET Core, Razor, JSON (`appsettings.json`), EF Core, SignalR, gRPC snippets.
+  * Most of the snippets are context-aware. The snippet suggestion only show up when filename pattern match.
+  * Here are some of the most used snippets:
+    * `**/Startup*.cs`
+      * `services-add-dbcontext`: Generates `AddDbContext()` in `Startup.ConfigureService()`
+    * `**/*Controller.cs`
+      * `api-controller`: Generates API Controller class
+      * `mvc-action`: Generates MVC Action
+      * `api-action`: Generates API Action
+    * `**/*Context.cs` or `**/*Entities.cs`
+      * `ef-dbcontext`: Generates API Controller class
+    * `**/appsettings*.json`
+      * `connstr`: Generates `ConnectionStrings` section in `appsettings.json`
+      * `connstr-ip`: Generates `ConnectionStrings` item in `appsettings.json`
+      * `connstr-trusted`: Generates `ConnectionStrings` item in `appsettings.json`
 * [ASP.NET Core Switcher](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.asp-net-core-switcher)
   * Switch between Page and it's PageModel (`alt + o`)
   * Switch between View and Controller (`alt + i`)
   * Create View for Action (`alt + p`)
-* [Essential ASP.NET Core Snippets](https://marketplace.visualstudio.com/items?itemName=doggy8088.netcore-snippets)
-  * High quality ASP.NET Core snippets for Visual Studio Code.
-  * It contains C#, ASP.NET Core, Razor, JSON (`appsettings.json`), EF Core snippets.
-  * Here are some of the most used snippets:
-    * `services-add-dbcontext`: Generates `AddDbContext()` in `Startup.ConfigureService()`
-    * `ac-api-controller`: Generates API Controller class
-    * `ac-mvc-action`: Generates MVC Action
-    * `ac-api-action`: Generates API Action
-    * `ef-dbcontext`: Generates API Controller class
-    * `connstr`: Generates `ConnectionStrings` section in `appsettings.json`
-    * `connstr-ip`: Generates `ConnectionStrings` item in `appsettings.json`
-    * `connstr-trusted`: Generates `ConnectionStrings` item in `appsettings.json`
 * [ASP.NET Helper](https://marketplace.visualstudio.com/items?itemName=schneiderpat.aspnet-helper)
   * It parses your project to enable IntelliSense for Razor pages within an ASP.NET MVC project.
   * There are Tag helper IntelliSense which are very useful
@@ -93,7 +98,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 ### Misc
 
 * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
-  * It providing Language support for .gitignore files.
+  * It providing Language support for `.gitignore` files.
   * It can also add local `.gitignore` by pulling file from the the [github/gitignore](https://github.com/github/gitignore) repository.
 
 ### Some other extensions you may need (Optional)
