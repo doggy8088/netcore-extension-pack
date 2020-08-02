@@ -2,6 +2,12 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 1.1.0 - 2020-08-02
+
+* Remove [C# FixFormat](https://marketplace.visualstudio.com/items?itemName=Leopotam.csharpfixformat) extension. The [GitHub repo](https://github.com/Leopotam/vscode-csharpfixformat) has been removed from the author and most of the features can be replaced by [C#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) extension nowadays.
+* Update README
+  * Move all recommended settings into standalone section `Recommended Settings`.
+
 ## 1.0.0 - 2020-07-29
 
 * The [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) extension has been changed it's publisher id. So I have to update this extension pack to align with it.

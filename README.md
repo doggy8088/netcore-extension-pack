@@ -18,18 +18,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
     * Initialize property from parameter (In Constructor Parameter)
     * Initialize readonly property from parameter (In Constructor Parameter)
     * Initialize ctor from properties (In Class Body)
-* [C# FixFormat](https://marketplace.visualstudio.com/items?itemName=Leopotam.csharpfixformat)
-  * This replace [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) built-in C# formatter.
-  * Some of the highlights:
-    * Sort usings in alphabetical order. Doubles will be removed automatically.
-    * Fix indent size for all lines (omnisharp still cant do it for wrapped lines).
-    * Cleanup empty lines with allowed limit in row.
-    * It provides **batch mode** that you can batch formatting all your C# files in a folder. You can launch this feature when right-click on a folder in EXPLORER pane.
-  * Recommended settings below:
-    * `"csharp.format.enable": false`
-    * `"csharpfixformat.style.spaces.beforeParenthesis": false`
-    * `"csharpfixformat.style.braces.onSameLine": false`
-    * `"csharpfixformat.style.newline.elseCatch": true`
 * [Super Sharp (C# extensions)](https://marketplace.visualstudio.com/items?itemName=craigthomas.supersharp)
   * It provides some missing refactoring features for C#.
   * Some of the highlights:
@@ -48,20 +36,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * It let you copy JSON and paste as Go, TypeScript, C#, C++ and more using [quicktype](https://app.quicktype.io/#l=cs).
 * [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
   * This can let you list all the `// TODO:` comments in the project. Neats!
-  * Remember add `**/*.cs` into `todohighlight.include` setting. Recommended setting below:
-    ```json
-    "todohighlight.include": [
-            "**/*.js",
-            "**/*.jsx",
-            "**/*.ts",
-            "**/*.tsx",
-            "**/*.html",
-            "**/*.php",
-            "**/*.css",
-            "**/*.scss",
-            "**/*.cs"
-        ]
-    ```
 
 ### Testing Tools
 
@@ -78,12 +52,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * It lets you easily add or remove NuGet package references to/from your project's .csproj or .fsproj files using Code's Command Palette.
 * [MSBuild project tools](https://marketplace.visualstudio.com/items?itemName=tintoy.msbuild-project-tools)
   * It provides [MSBuild language service](https://github.com/tintoy/msbuild-project-tools-server/) which contains intellisense for MSBuild project files, including auto-complete for `<PackageReference>` elements.
-  * If you'd like to configure all the `*.csproj` file that associate with `MSBuild` language mode. You can use the following user settings in your VSCode.
-    ```json
-    "files.associations": {
-        "*.csproj": "msbuild"
-    }
-    ```
 * [.NET Core Tools](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet)
   * Right click on a .csproj, .fsproj or .sln file in the explorer, then you can run .NET Core commands (Build/Run/Test) from context menu.
 * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
@@ -139,10 +107,57 @@ This extension pack packages some of the most popular (and some of my favorite) 
 * [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
   * Adds real-time collaborative editing and debugging into VS Code.
 
-### Other manual setup (Optional)
+### Recommended Settings
 
-* Recommended Settings
-  * `"editor.minimap.renderCharacters": false`
-    * Enhanced minimap performance by disabling render characters in minimap.
+* Visual Studio Code
+
+    Disable `renderCharacters` feature in minimap can improve display performance.
+
+    ```json
+    {
+      "editor.minimap.renderCharacters": false
+    }
+    ```
+
+* [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+
+    The C# extension for VS Code already supports `.editorconfig` and [CodeStyle analysis](https://docs.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview?view=vs-2019). ([#648](https://github.com/dotnet/format/issues/648#issuecomment-614905524))
+
+    ```json
+    {
+      "omnisharp.enableRoslynAnalyzers": true,
+      "omnisharp.enableEditorConfigSupport": true
+    }
+    ```
+
+* [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+
+    Add `**/*.cs` into `todohighlight.include` setting.
+
+    ```json
+    {
+      "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss",
+        "**/*.cs"
+      ]
+    }
+    ```
+
+* [MSBuild project tools](https://marketplace.visualstudio.com/items?itemName=tintoy.msbuild-project-tools)
+
+    If you'd like to configure all the `*.csproj` file that associate with `MSBuild` language mode. You can use the following user settings in your VSCode.
+
+    ```json
+    "files.associations": {
+      "*.csproj": "msbuild"
+    }
+    ```
 
 **Enjoy!**
