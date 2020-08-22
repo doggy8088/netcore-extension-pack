@@ -2,6 +2,10 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 1.2.0 - 2020-08-22
+
+* Add [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3) extension.
+
 ## 1.1.1 - 2020-08-03
 
 * Update README

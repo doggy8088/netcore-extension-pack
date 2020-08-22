@@ -94,6 +94,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
       * This will be triggered after `asp-action` been entered.
   * Known issue:
     * `@model` must appear in the first line of the Razor page when you want IntelliSense for `@Model` object.
+* [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3)
+  * Protobuf 3 support for Visual Studio Code
 
 ### Misc
 
