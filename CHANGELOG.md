@@ -2,6 +2,13 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 1.4.0 - 2020-09-13
+
+* Add [C# Namespace Autocompletion](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.namespace) extension
+* Add [Run Terminal Command](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.terminal-commands) extension
+* Add [LibMan Tools](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.libman) extension
+* Add [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) extension
+
 ## 1.3.0 - 2020-09-12
 
 * Add [.NET Core Add Reference](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.add-reference) extension

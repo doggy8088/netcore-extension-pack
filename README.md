@@ -8,13 +8,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 * [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
   * The main C# extension for Visual Studio Code powered by [OmniSharp](http://www.omnisharp.net).
-* [.NET Core User Secrets](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.user-secrets)
-  * Extension mimicking Visual Studio's "**Manage User Secrets**" functionality.
-  * Right-click on a `.csproj` file in the Explorer and select "**Manage User Secrets**" from the context menu to insert auto-generated `UserSecretsId` element and/or open associated `secrets.json` file.
-* [.NET Core Add Reference](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.add-reference)
-  * Add or remove project references for your .NET Core projects.
-  * Right-click on a `.csproj` file in the Explorer and select "**Add Reference**" from the context menu.
-  * You can **Add** or **Remove** project references by using the same "**Add Reference**" from the context menu.
+* [C# Namespace Autocompletion](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.namespace)
+  * Full namespace autocompletion for C#
 * [C# Extensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions)
   * The Quick Actions is really a productivity saver.
   * Explorer
@@ -61,6 +56,20 @@ This extension pack packages some of the most popular (and some of my favorite) 
 * [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)
   * Shows the latest version for each package using code lens.
 
+### .NET Core Productivity
+
+* [.NET Core User Secrets](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.user-secrets)
+  * Extension mimicking Visual Studio's "**Manage User Secrets**" functionality.
+  * Right-click on a `.csproj` file in the Explorer and select "**Manage User Secrets**" from the context menu to insert auto-generated `UserSecretsId` element and/or open associated `secrets.json` file.
+* [.NET Core Add Reference](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.add-reference)
+  * Add or remove project references for your .NET Core projects.
+  * Right-click on a `.csproj` file in the Explorer and select "**Add Reference**" from the context menu.
+  * You can **Add** or **Remove** project references by using the same "**Add Reference**" from the context menu.
+* [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3)
+  * Protobuf 3 support for Visual Studio Code
+* [Run Terminal Command](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.terminal-commands)
+  * Run predefined terminal commands from Explorer context menu or Command Palette.
+
 ### ASP.NET Core Productivity
 
 * [Essential ASP.NET Core Snippets](https://marketplace.visualstudio.com/items?itemName=doggy8088.netcore-snippets)
@@ -84,14 +93,16 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * Switch between Page and it's PageModel (`alt + o`)
   * Switch between View and Controller (`alt + i`)
   * Create View for Action (`alt + p`)
-* [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3)
-  * Protobuf 3 support for Visual Studio Code
+* [LibMan Tools](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.libman)
+  * Basic [LibMan](https://docs.microsoft.com/en-us/aspnet/core/client-side/libman/libman-cli?view=aspnetcore-3.1&WT.mc_id=DT-MVP-4015686) support for VSCode
 
 ### Misc
 
 * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
   * It providing Language support for `.gitignore` files.
   * It can also add local `.gitignore` by pulling file from the the [github/gitignore](https://github.com/github/gitignore) repository.
+* [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+  * EditorConfig Support for Visual Studio Code
 
 ### Some other extensions you may need (Optional)
 
