@@ -2,6 +2,15 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 1.3.0 - 2020-09-12
+
+* Add [.NET Core Add Reference](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.add-reference) extension
+* Add [.NET Core User Secrets](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.user-secrets) extension
+* Remove [Super Sharp (C# extensions)](https://marketplace.visualstudio.com/items?itemName=craigthomas.supersharp) extension
+  * All of the feature in this extension can be replaced by [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) extension
+* Remove [ASP.NET Helper](https://marketplace.visualstudio.com/items?itemName=schneiderpat.aspnet-helper) extension
+  * All of the feature in this extension can be replaced by [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) extension
+
 ## 1.2.0 - 2020-08-22
 
 * Add [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3) extension.

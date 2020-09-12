@@ -8,6 +8,13 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 * [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
   * The main C# extension for Visual Studio Code powered by [OmniSharp](http://www.omnisharp.net).
+* [.NET Core User Secrets](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.user-secrets)
+  * Extension mimicking Visual Studio's "**Manage User Secrets**" functionality.
+  * Right-click on a `.csproj` file in the Explorer and select "**Manage User Secrets**" from the context menu to insert auto-generated `UserSecretsId` element and/or open associated `secrets.json` file.
+* [.NET Core Add Reference](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.add-reference)
+  * Add or remove project references for your .NET Core projects.
+  * Right-click on a `.csproj` file in the Explorer and select "**Add Reference**" from the context menu.
+  * You can **Add** or **Remove** project references by using the same "**Add Reference**" from the context menu.
 * [C# Extensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions)
   * The Quick Actions is really a productivity saver.
   * Explorer
@@ -18,11 +25,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
     * Initialize property from parameter (In Constructor Parameter)
     * Initialize readonly property from parameter (In Constructor Parameter)
     * Initialize ctor from properties (In Class Body)
-* [Super Sharp (C# extensions)](https://marketplace.visualstudio.com/items?itemName=craigthomas.supersharp)
-  * It provides some missing refactoring features for C#.
-  * Some of the highlights:
-    * Add DI in the constructor automatically!
-    * Move class | enum | interface | struct to new file.
 * [C# XML Documentation Comments](https://marketplace.visualstudio.com/items?itemName=k--kato.docomment)
   * Type "///", it auto-generates an XML doucumentation comment.
 * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
@@ -49,11 +51,11 @@ This extension pack packages some of the most popular (and some of my favorite) 
 ### NuGet & Build Tools
 
 * [NuGet Package Manager](https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager)
-  * It lets you easily add or remove NuGet package references to/from your project's .csproj or .fsproj files using Code's Command Palette.
+  * It lets you easily add or remove NuGet package references to/from your project's `.csproj` or `.fsproj` files using Code's Command Palette.
 * [MSBuild project tools](https://marketplace.visualstudio.com/items?itemName=tintoy.msbuild-project-tools)
   * It provides [MSBuild language service](https://github.com/tintoy/msbuild-project-tools-server/) which contains intellisense for MSBuild project files, including auto-complete for `<PackageReference>` elements.
 * [.NET Core Tools](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet)
-  * Right click on a .csproj, .fsproj or .sln file in the explorer, then you can run .NET Core commands (Build/Run/Test) from context menu.
+  * Right click on a `.csproj`, `.fsproj` or `.sln` file in the explorer, then you can run .NET Core commands (Build/Run/Test) from context menu.
 * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
   * This provide you IntelliSense when entering `<ProjectReference Inlcude="..." />` path.
 * [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)
@@ -82,18 +84,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * Switch between Page and it's PageModel (`alt + o`)
   * Switch between View and Controller (`alt + i`)
   * Create View for Action (`alt + p`)
-* [ASP.NET Helper](https://marketplace.visualstudio.com/items?itemName=schneiderpat.aspnet-helper)
-  * It parses your project to enable IntelliSense for Razor pages within an ASP.NET MVC project.
-  * There are Tag helper IntelliSense which are very useful
-    * `asp-controller="ctrlName"`
-      * Triggered by `Ctrl+Space` hotkey
-    * `asp-action="actionName"`
-      * Triggered by `Ctrl+Space` hotkey
-      * The action method must have `[HttpGet]` attribute attached.
-    * `asp-route-xxxParam="value"`
-      * This will be triggered after `asp-action` been entered.
-  * Known issue:
-    * `@model` must appear in the first line of the Razor page when you want IntelliSense for `@Model` object.
 * [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3)
   * Protobuf 3 support for Visual Studio Code
 
@@ -113,6 +103,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * It's too informative for me. I turn it off all the time.
 * [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
   * Adds real-time collaborative editing and debugging into VS Code.
+* [.NET Install Tool for Extension Authors](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime) (Preview)
+  * Allows acquisition of the **.NET Core runtime** specifically for VSCode extension authors.
 
 ### Recommended Settings
 
