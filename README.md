@@ -10,7 +10,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * The main C# extension for Visual Studio Code powered by [OmniSharp](http://www.omnisharp.net).
 * [C# Namespace Autocompletion](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.namespace)
   * Full namespace autocompletion for C#
-* [C# Extensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions)
+* [C# Extensions](https://marketplace.visualstudio.com/items?itemName=kreativ-software.csharpextensions)
   * The Quick Actions is really a productivity saver.
   * Explorer
     * New C# Class
@@ -29,8 +29,14 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * `// ?` hightlight some questions
   * `// TODO:` highlight TODOs
   * `// @param PARAM` highlight parameter info
-* [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
-  * It let you copy JSON and paste as Go, TypeScript, C#, C++ and more using [quicktype](https://app.quicktype.io/#l=cs).
+* [Paste JSON as Code (Refresh)](https://marketplace.visualstudio.com/items?itemName=doggy8088.quicktype-refresh)
+  * `quicktype` infers types from sample JSON data, then outputs strongly typed models and serializers for working with that data in your desired programming language. For more explanation, read [A first look at quicktype](http://blog.quicktype.io/first-look/).
+  * It supports `C#`, `Go`, `C++`, `Java`, `TypeScript`, `Swift`, `Elm`, and `JSON Schema`.  I have to say THIS IS AWESOME! Just try it.
+* [C# to TypeScript](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.csharp-to-typescript)
+  * Convert C# Models, ViewModels and DTOs into their TypeScript equivalents.
+  * Useful keyboard shortcuts:
+    * `Alt + /` - Run **C# to TypeScript (To Clipboard)** command
+    * `Alt + .` - Run **C# to TypeScript (Paste As)** command
 * [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
   * This can let you list all the `// TODO:` comments in the project. Neats!
 
@@ -90,11 +96,13 @@ This extension pack packages some of the most popular (and some of my favorite) 
       * `connstr-ip`: Generates `ConnectionStrings` item in `appsettings.json`
       * `connstr-trusted`: Generates `ConnectionStrings` item in `appsettings.json`
 * [ASP.NET Core Switcher](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.asp-net-core-switcher)
-  * Switch between Page and it's PageModel (`alt + o`)
-  * Switch between View and Controller (`alt + i`)
-  * Create View for Action (`alt + p`)
+  * Switch between **Page** and it's **PageModel** (`alt + o`)
+  * Switch between **View** and **Controller** (`alt + i`)
+  * Create **View** for Action (`alt + p`)
 * [LibMan Tools](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.libman)
   * Basic [LibMan](https://docs.microsoft.com/en-us/aspnet/core/client-side/libman/libman-cli?view=aspnetcore-3.1&WT.mc_id=DT-MVP-4015686) support for VSCode
+* [Blazor Snippet Pack](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.blazor-snippet-pack)
+  * A snippet pack for Blazor.
 
 ### Misc
 
@@ -103,6 +111,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * It can also add local `.gitignore` by pulling file from the the [github/gitignore](https://github.com/github/gitignore) repository.
 * [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
   * EditorConfig Support for Visual Studio Code
+* [Peek Hidden Files](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.toggle-hidden)
+  * Toggle visibility of excluded files. You can easily toggle hidden `bin` and `obj` folders in your project.
 
 ### Some other extensions you may need (Optional)
 
@@ -116,6 +126,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * Adds real-time collaborative editing and debugging into VS Code.
 * [.NET Install Tool for Extension Authors](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime) (Preview)
   * Allows acquisition of the **.NET Core runtime** specifically for VSCode extension authors.
+* [.NET Core Snippet Pack](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.asp-net-core-snippet-pack)
+  * A pack of around 120 snippets for .NET Core.
 
 ### Recommended Settings
 

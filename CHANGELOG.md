@@ -2,6 +2,16 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 1.5.0 - 2021-05-31
+
+* Add [Peek Hidden Files](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.toggle-hidden) extension.
+* Add [C# to TypeScript](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.csharp-to-typescript) extension.
+* Add [Blazor Snippet Pack](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.blazor-snippet-pack) extension.
+* Replace [C# Extensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions) with [C# Extensions](https://marketplace.visualstudio.com/items?itemName=kreativ-software.csharpextensions).
+* Replace [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype) with [Paste JSON as Code (Refresh)](https://marketplace.visualstudio.com/items?itemName=doggy8088.quicktype-refresh).
+  * It because the original [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype) extension is not updating since **9/20/2018, 11:48:28 PM**. Many of the already fixed bugs/issues are not released. That's why I published this extension with latest version from the [quicktype/quicktype-vscode](https://github.com/quicktype/quicktype-vscode) repo.
+* Update `README.md`
+
 ## 1.4.0 - 2020-09-13
 
 * Add [C# Namespace Autocompletion](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.namespace) extension

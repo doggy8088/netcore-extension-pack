@@ -2,17 +2,20 @@
     "name": "netcore-extension-pack",
     "displayName": ".NET Core Extension Pack",
     "description": "Popular Visual Studio Code extensions for .NET Core Development",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "publisher": "doggy8088",
     "icon": "icon.png",
     "repository": "https://github.com/doggy8088/netcore-extension-pack",
     "engines": {
-        "vscode": "^1.44.0"
+        "vscode": "^1.53.0"
     },
     "categories": [
         "Extension Packs"
     ],
     "extensionPack": [
+        "adrianwilczynski.toggle-hidden",
+        "adrianwilczynski.csharp-to-typescript",
+        "adrianwilczynski.blazor-snippet-pack",
         "ms-dotnettools.csharp",
         "doggy8088.netcore-snippets",
         "adrianwilczynski.user-secrets",
@@ -24,10 +27,10 @@
         "zxh404.vscode-proto3",
         "adrianwilczynski.asp-net-core-switcher",
         "codezombiech.gitignore",
-        "jchannon.csharpextensions",
+        "kreativ-software.csharpextensions",
         "k--kato.docomment",
         "aaron-bond.better-comments",
-        "quicktype.quicktype",
+        "doggy8088.quicktype-refresh",
         "jmrog.vscode-nuget-package-manager",
         "tintoy.msbuild-project-tools",
         "formulahendry.dotnet",
