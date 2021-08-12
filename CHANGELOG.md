@@ -2,6 +2,11 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 1.5.2 - 2021-08-12
+
+* Add `license`, `galleryBanner`, `keywords` in package.json
+* Update `LICENSE`
+
 ## 1.5.1 - 2021-05-31
 
 * Add [Peek Hidden Files](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.toggle-hidden) extension.
