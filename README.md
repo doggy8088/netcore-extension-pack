@@ -9,17 +9,16 @@ This extension pack packages some of the most popular (and some of my favorite) 
 * [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
   * The main C# extension for Visual Studio Code powered by [OmniSharp](http://www.omnisharp.net).
 * [C# Namespace Autocompletion](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.namespace)
-  * Full namespace autocompletion for C#
+  * Use the `namespace-fill` snippet to insert full namespace autocompletion for C#
 * [C# Extensions](https://marketplace.visualstudio.com/items?itemName=kreativ-software.csharpextensions)
   * The Quick Actions is really a productivity saver.
   * Explorer
     * New C# Class
     * New C# Interface
-  * Quick Actions
-    * Initialize field from parameter (In Constructor Parameter)
-    * Initialize property from parameter (In Constructor Parameter)
-    * Initialize readonly property from parameter (In Constructor Parameter)
-    * Initialize ctor from properties (In Class Body)
+    * New C# Enum
+    * New C# Controller
+    * New C# Api Controller
+    * New C# Razor Page
 * [C# XML Documentation Comments](https://marketplace.visualstudio.com/items?itemName=k--kato.docomment)
   * Type "///", it auto-generates an XML doucumentation comment.
 * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
@@ -111,21 +110,23 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * It can also add local `.gitignore` by pulling file from the the [github/gitignore](https://github.com/github/gitignore) repository.
 * [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
   * EditorConfig Support for Visual Studio Code
+* [.NET Core EditorConfig Generator](https://marketplace.visualstudio.com/items?itemName=doggy8088.netcore-editorconfiggenerator)
+  * The **Generate .editorconfig for C# project** command can generate a Roslyn-inspired `.editorconfig` file just for any C# projects.
 * [Peek Hidden Files](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.toggle-hidden)
   * Toggle visibility of excluded files. You can easily toggle hidden `bin` and `obj` folders in your project.
 
 ### Some other extensions you may need (Optional)
 
+* [Git Extension Pack](https://marketplace.visualstudio.com/items?itemName=doggy8088.git-extension-pack)
+  * This extension offer your a set of popular Git-related extensions.
 * [NuGet Reverse Package Search ("Add Package" support)](https://marketplace.visualstudio.com/items?itemName=jesschadwick.nuget-reverse-package-search)
   * Adds reverse .NET package lookup support like the "Add Package" context menu item in full Visual Studio.
 * [mssql](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
   * If you are using Microsoft SQL Server, you might need this awesome extension.
-* [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-  * It's too informative for me. I turn it off all the time.
 * [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
   * Adds real-time collaborative editing and debugging into VS Code.
-* [.NET Install Tool for Extension Authors](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime) (Preview)
-  * Allows acquisition of the **.NET Core runtime** specifically for VSCode extension authors.
+* [.NET Install Tool for Extension Authors](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime)
+  * Allows acquisition of the **.NET runtime** specifically for VSCode extension authors.
 * [.NET Core Snippet Pack](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.asp-net-core-snippet-pack)
   * A pack of around 120 snippets for .NET Core.
 
@@ -143,12 +144,11 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 * [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
 
-    The C# extension for VS Code already supports `.editorconfig` and [CodeStyle analysis](https://docs.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview?view=vs-2019). ([#648](https://github.com/dotnet/format/issues/648#issuecomment-614905524))
+    The C# extension for VS Code supports `.editorconfig` and [CodeStyle analysis](https://docs.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview?view=vs-2019). ([#648](https://github.com/dotnet/format/issues/648#issuecomment-614905524))
 
     ```json
     {
-      "omnisharp.enableRoslynAnalyzers": true,
-      "omnisharp.enableEditorConfigSupport": true
+      "omnisharp.enableRoslynAnalyzers": true
     }
     ```
 

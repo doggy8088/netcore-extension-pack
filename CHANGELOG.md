@@ -2,6 +2,11 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 1.6.0 - 2022-04-11
+
+* Add [.NET Core EditorConfig Generator](https://marketplace.visualstudio.com/items?itemName=doggy8088.netcore-editorconfiggenerator) extension.
+* Update README.md
+
 ## 1.5.2 - 2021-08-12
 
 * Add `license`, `galleryBanner`, `keywords` in package.json
