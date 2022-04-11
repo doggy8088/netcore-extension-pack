@@ -63,6 +63,9 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### .NET Core Productivity
 
+* [NuGet Gallery](https://marketplace.visualstudio.com/items?itemName=patcx.vscode-nuget-gallery)
+  * It makes installing and uninstalling NuGet packages much easier just like Vsual Studio!
+  * Use `F1` > `NuGet: Open NuGet Gallery` command to open NuGet Gallery window.
 * [.NET Core User Secrets](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.user-secrets)
   * Extension mimicking Visual Studio's "**Manage User Secrets**" functionality.
   * Right-click on a `.csproj` file in the Explorer and select "**Manage User Secrets**" from the context menu to insert auto-generated `UserSecretsId` element and/or open associated `secrets.json` file.
