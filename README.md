@@ -121,9 +121,9 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * This extension offer your a set of popular Git-related extensions.
 * [NuGet Reverse Package Search ("Add Package" support)](https://marketplace.visualstudio.com/items?itemName=jesschadwick.nuget-reverse-package-search)
   * Adds reverse .NET package lookup support like the "Add Package" context menu item in full Visual Studio.
-* [mssql](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
+* [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
   * If you are using Microsoft SQL Server, you might need this awesome extension.
-* [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+* [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
   * Adds real-time collaborative editing and debugging into VS Code.
 * [.NET Install Tool for Extension Authors](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime)
   * Allows acquisition of the **.NET runtime** specifically for VSCode extension authors.
