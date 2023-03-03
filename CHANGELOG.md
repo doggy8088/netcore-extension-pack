@@ -2,6 +2,10 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 1.8.0 - 2023-03-04
+
+* Add [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension.
+
 ## 1.7.0 - 2022-04-12
 
 * Add [NuGet Gallery](https://marketplace.visualstudio.com/items?itemName=patcx.vscode-nuget-gallery) extension.

@@ -41,6 +41,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### Testing Tools
 
+* [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+  * REST Client allows you to send HTTP request and view the response in Visual Studio Code directly.
 * [.NET Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer)
   * It supports [MSTest](https://en.wikipedia.org/wiki/Visual_Studio_Unit_Testing_Framework), [NUnit](http://nunit.org/), and [xUnit](https://xunit.github.io).
   * Useful keyboard shortcuts:
