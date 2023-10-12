@@ -2,6 +2,12 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 1.9.0 - 2023-10-12
+
+* Add [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) extension.
+  * [C# Dev Kit - Now Generally Available - .NET Blog](https://devblogs.microsoft.com/dotnet/csharp-dev-kit-now-generally-available/?WT.mc_id=DT-MVP-4015686)
+* Update README.md
+
 ## 1.8.0 - 2023-03-04
 
 * Add [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension.

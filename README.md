@@ -7,7 +7,9 @@ This extension pack packages some of the most popular (and some of my favorite) 
 ### C# Productivity
 
 * [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
-  * The main C# extension for Visual Studio Code powered by [OmniSharp](http://www.omnisharp.net).
+  * It provides rich language support for C# and is shipped along with [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit). Powered by a [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) (LSP) server, this extension integrates with open source components like [Roslyn](https://github.com/dotnet/roslyn) and [Razor](https://github.com/dotnet/razor) to provide rich type information and a faster, more reliable C# experience.
+* [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
+  * C# Dev Kit helps you manage your code with a solution explorer and test your code with integrated unit test discovery and execution, elevating your C# development experience wherever you like to develop (Windows, macOS, Linux, and even in a Codespace).
 * [C# Namespace Autocompletion](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.namespace)
   * Use the `namespace-fill` snippet to insert full namespace autocompletion for C#
 * [C# Extensions](https://marketplace.visualstudio.com/items?itemName=kreativ-software.csharpextensions)
@@ -144,16 +146,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
     ```json
     {
       "editor.minimap.renderCharacters": false
-    }
-    ```
-
-* [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
-
-    The C# extension for VS Code supports `.editorconfig` and [CodeStyle analysis](https://docs.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview?view=vs-2019). ([#648](https://github.com/dotnet/format/issues/648#issuecomment-614905524))
-
-    ```json
-    {
-      "omnisharp.enableRoslynAnalyzers": true
     }
     ```
 
