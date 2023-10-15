@@ -2,6 +2,11 @@
 
 All notable changes to the **.NET Core Extension Pack** will be documented in this file.
 
+## 1.9.1 - 2023-10-15
+
+* Update README.md
+* Add [Polyglot Notebooks](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode) as optional extension.
+
 ## 1.9.0 - 2023-10-12
 
 * Add [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) extension.

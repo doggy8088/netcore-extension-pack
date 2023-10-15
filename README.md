@@ -8,8 +8,17 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 * [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
   * It provides rich language support for C# and is shipped along with [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit). Powered by a [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) (LSP) server, this extension integrates with open source components like [Roslyn](https://github.com/dotnet/roslyn) and [Razor](https://github.com/dotnet/razor) to provide rich type information and a faster, more reliable C# experience.
+  * Learn more about the rich features of the C# extension:
+    * [Refactoring](https://code.visualstudio.com/docs/csharp/refactoring): Edit your code with code fixes and refactorings
+    * [Navigation](https://code.visualstudio.com/docs/csharp/navigate-edit): Explore and navigate your code with features like Go To Definition and *d All References
+    * [IntelliSense](https://code.visualstudio.com/docs/csharp/navigate-edit): Write code with auto-completion
+    * [Formatting and Linting](https://code.visualstudio.com/docs/csharp/formatting-linting): Format and lint your code
 * [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
-  * C# Dev Kit helps you manage your code with a solution explorer and test your code with integrated unit test discovery and execution, elevating your C# development experience wherever you like to develop (Windows, macOS, Linux, and even in a Codespace).
+  * C# Dev Kit helps you manage your code with a **solution explorer** and **test your code** with integrated unit test discovery and execution, elevating your C# development experience wherever you like to develop (Windows, macOS, Linux, and even in a Codespace).
+* [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp)
+  * AI-assisted development for [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
+* [.NET Runtime Install Tool](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime)
+  * This extension installs and manages different versions of the .NET Runtime.
 * [C# Namespace Autocompletion](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.namespace)
   * Use the `namespace-fill` snippet to insert full namespace autocompletion for C#
 * [C# Extensions](https://marketplace.visualstudio.com/items?itemName=kreativ-software.csharpextensions)
@@ -124,6 +133,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### Some other extensions you may need (Optional)
 
+* [Polyglot Notebooks](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode)
+  * The Polyglot Notebooks extension, powered by [.NET Interactive](https://github.com/dotnet/interactive), brings support for multi-language notebooks to Visual Studio Code.
 * [Git Extension Pack](https://marketplace.visualstudio.com/items?itemName=doggy8088.git-extension-pack)
   * This extension offer your a set of popular Git-related extensions.
 * [NuGet Reverse Package Search ("Add Package" support)](https://marketplace.visualstudio.com/items?itemName=jesschadwick.nuget-reverse-package-search)
