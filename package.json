@@ -2,7 +2,7 @@
     "name": "netcore-extension-pack",
     "displayName": ".NET Core Extension Pack",
     "description": "Popular Visual Studio Code extensions for .NET Core Development",
-    "version": "1.9.1",
+    "version": "1.10.0",
     "publisher": "doggy8088",
     "icon": "icon.png",
     "repository": "https://github.com/doggy8088/netcore-extension-pack",
@@ -51,7 +51,6 @@
         "formulahendry.dotnet",
         "wayou.vscode-todo-highlight",
         "christian-kohler.path-intellisense",
-        "pflannery.vscode-versionlens",
-        "formulahendry.dotnet-test-explorer"
+        "pflannery.vscode-versionlens"
     ]
 }
