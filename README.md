@@ -15,8 +15,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
     * [Formatting and Linting](https://code.visualstudio.com/docs/csharp/formatting-linting): Format and lint your code
 * [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
   * C# Dev Kit helps you manage your code with a **solution explorer** and **test your code** with integrated unit test discovery and execution, elevating your C# development experience wherever you like to develop (Windows, macOS, Linux, and even in a Codespace).
-* [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
-  * AI-powered chat assistant for code explanations, refactoring, debugging, and more, directly integrated into Visual Studio Code.
 * [.NET Runtime Install Tool](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime)
   * This extension installs and manages different versions of the .NET Runtime.
 * [C# Namespace Autocompletion](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.namespace)

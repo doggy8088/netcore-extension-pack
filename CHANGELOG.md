@@ -5,8 +5,7 @@ All notable changes to the **.NET Core Extension Pack** will be documented in th
 ## 1.11.0 - 2026-05-04
 
 * Remove [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp) extension
-  * This extension has been deprecated and replaced by [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat).
-* Add [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) extension
+  * This extension has been deprecated.
 * Replace [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3) with [Protobuf VSC](https://marketplace.visualstudio.com/items?itemName=drblury.protobuf-vsc) extension
   * The original extension has been deprecated. `drblury.protobuf-vsc` is its official successor.
 
