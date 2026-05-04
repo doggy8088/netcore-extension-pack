@@ -15,8 +15,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
     * [Formatting and Linting](https://code.visualstudio.com/docs/csharp/formatting-linting): Format and lint your code
 * [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
   * C# Dev Kit helps you manage your code with a **solution explorer** and **test your code** with integrated unit test discovery and execution, elevating your C# development experience wherever you like to develop (Windows, macOS, Linux, and even in a Codespace).
-* [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp)
-  * AI-assisted development for [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
 * [.NET Runtime Install Tool](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime)
   * This extension installs and manages different versions of the .NET Runtime.
 * [C# Namespace Autocompletion](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.namespace)
@@ -80,8 +78,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * Add or remove project references for your .NET Core projects.
   * Right-click on a `.csproj` file in the Explorer and select "**Add Reference**" from the context menu.
   * You can **Add** or **Remove** project references by using the same "**Add Reference**" from the context menu.
-* [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3)
-  * Protobuf 3 support for Visual Studio Code
+* [Protobuf VSC](https://marketplace.visualstudio.com/items?itemName=drblury.protobuf-vsc)
+  * Comprehensive Protocol Buffers support with syntax highlighting, IntelliSense, diagnostics, formatting, and more. Successor to vscode-proto3.
 * [Run Terminal Command](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.terminal-commands)
   * Run predefined terminal commands from Explorer context menu or Command Palette.
 
